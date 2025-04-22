@@ -1,8 +1,11 @@
 #include "runningsessionboard.h"
 #include "ui_runningsessionboard.h"
 #include <QTimer>
+#include <QDesktopServices>
+#include <QUrl>
 
-RunningSessionBoard::RunningSessionBoard(int hours, int minutes, int breakTime, QWidget *parent)
+RunningSessionBoard::RunningSessionBoard(int hours, int minutes, int breakTime,
+                                         QString link, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::RunningSessionBoard)
 {
@@ -20,6 +23,12 @@ RunningSessionBoard::RunningSessionBoard(int hours, int minutes, int breakTime, 
     // Initialize timer
     m_Timer = new QTimer(this);
     connect(m_Timer, &QTimer::timeout, this, &RunningSessionBoard::timerTick);
+
+    // Open video
+    if (!link.isNull() && !link.isEmpty())
+    {
+        openVideo(link);
+    }
 
     m_isSession = true;
     startSession();
@@ -80,4 +89,9 @@ void RunningSessionBoard::startBreak()
 {
     m_secondsLeft = m_breakTime * 60;
     m_Timer->start(1000);
+}
+
+void RunningSessionBoard::openVideo(const QString& link)
+{
+    QDesktopServices::openUrl(link);
 }

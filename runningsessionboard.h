@@ -12,7 +12,7 @@ class RunningSessionBoard : public QDialog
     Q_OBJECT
 
 public:
-    explicit RunningSessionBoard(int hours, int minutes, int breakTime, QWidget *parent = nullptr);
+    explicit RunningSessionBoard(int hours, int minutes, int breakTime, QString link, QWidget *parent = nullptr);
     ~RunningSessionBoard();
 
 private:
@@ -27,6 +27,7 @@ private:
     int getSeconds();
     void startBreak();
     bool m_isSession;
+    void openVideo(const QString&);
 
 private slots:
     void timerTick();

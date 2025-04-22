@@ -51,10 +51,11 @@ void MainWindow::startSession()
     }
 
     // Hide mainwindow and show board
-    int breakTime = ui->lineEditBreak->text().toInt();
+    int breakTime   = ui->lineEditBreak->text().toInt();
+    QString link    = ui->lineEditVideo->text();
 
     this->hide();
-    RunningSessionBoard board(hours, minutes, breakTime, this);
+    RunningSessionBoard board(hours, minutes, breakTime, link, this);
     board.exec();
     this->show();
 }
