@@ -344,6 +344,12 @@
 			null
 		],
 		[
+			"C:/Users/Marco/Documents/Pomodoro_Timer/profilemanager.h",
+			"MU",
+			"EWIEGA46WW/moc_profilemanager.cpp",
+			null
+		],
+		[
 			"C:/Users/Marco/Documents/Pomodoro_Timer/runningsessionboard.h",
 			"MU",
 			"EWIEGA46WW/moc_runningsessionboard.cpp",
@@ -424,6 +430,11 @@
 		[ "C:/Users/Marco/Documents/Pomodoro_Timer/main.cpp", "MU", null ],
 		[ "C:/Users/Marco/Documents/Pomodoro_Timer/mainwindow.cpp", "MU", null ],
 		[ "C:/Users/Marco/Documents/Pomodoro_Timer/profile.cpp", "MU", null ],
+		[
+			"C:/Users/Marco/Documents/Pomodoro_Timer/profilemanager.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/Marco/Documents/Pomodoro_Timer/runningsessionboard.cpp",
 			"MU",

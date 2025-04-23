@@ -1,5 +1,6 @@
 C:/Users/Marco/Documents/Pomodoro_Timer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Pomodoro_Timer_autogen/EWIEGA46WW/moc_runningsessionboard.cpp: C:/Users/Marco/Documents/Pomodoro_Timer/runningsessionboard.h \
   C:/Users/Marco/Documents/Pomodoro_Timer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Pomodoro_Timer_autogen/moc_predefs.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/QUrl \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/q20iterator.h \
@@ -119,6 +120,7 @@ C:/Users/Marco/Documents/Pomodoro_Timer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debu
   C:/Qt/6.9.0/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.9.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.9.0/mingw_64/include/QtCore/qvarlengtharray.h \

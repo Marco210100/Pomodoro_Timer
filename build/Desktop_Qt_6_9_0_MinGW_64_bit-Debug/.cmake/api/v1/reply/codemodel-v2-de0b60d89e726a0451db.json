@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-9ff38200318f98c6b920.json",
+					"jsonFile" : "directory-.-Debug-fa86335e4b190ba6f93c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Pomodoro_Timer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Pomodoro_Timer-Debug-d428f41019cafe39513b.json",
+					"jsonFile" : "target-Pomodoro_Timer-Debug-18fd7f6b97b7d6ba0494.json",
 					"name" : "Pomodoro_Timer",
 					"projectIndex" : 0
 				},

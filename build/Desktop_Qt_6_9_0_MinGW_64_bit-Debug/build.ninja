@@ -89,6 +89,14 @@ build CMakeFiles/Pomodoro_Timer.dir/profile.cpp.obj: CXX_COMPILER__Pomodoro_Time
   OBJECT_DIR = CMakeFiles\Pomodoro_Timer.dir
   OBJECT_FILE_DIR = CMakeFiles\Pomodoro_Timer.dir
 
+build CMakeFiles/Pomodoro_Timer.dir/profilemanager.cpp.obj: CXX_COMPILER__Pomodoro_Timer_unscanned_Debug C$:/Users/Marco/Documents/Pomodoro_Timer/profilemanager.cpp || cmake_object_order_depends_target_Pomodoro_Timer
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Pomodoro_Timer.dir\profilemanager.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Marco/Documents/Pomodoro_Timer/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/Pomodoro_Timer_autogen/include -isystem C:/Qt/6.9.0/mingw_64/include/QtCore -isystem C:/Qt/6.9.0/mingw_64/include -isystem C:/Qt/6.9.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.9.0/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\Pomodoro_Timer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pomodoro_Timer.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pomodoro_Timer
@@ -97,7 +105,7 @@ build CMakeFiles/Pomodoro_Timer.dir/profile.cpp.obj: CXX_COMPILER__Pomodoro_Time
 #############################################
 # Link the executable Pomodoro_Timer.exe
 
-build Pomodoro_Timer.exe: CXX_EXECUTABLE_LINKER__Pomodoro_Timer_Debug CMakeFiles/Pomodoro_Timer.dir/Pomodoro_Timer_autogen/mocs_compilation.cpp.obj CMakeFiles/Pomodoro_Timer.dir/main.cpp.obj CMakeFiles/Pomodoro_Timer.dir/mainwindow.cpp.obj CMakeFiles/Pomodoro_Timer.dir/runningsessionboard.cpp.obj CMakeFiles/Pomodoro_Timer.dir/profile.cpp.obj | C$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || Pomodoro_Timer_autogen Pomodoro_Timer_autogen_timestamp_deps
+build Pomodoro_Timer.exe: CXX_EXECUTABLE_LINKER__Pomodoro_Timer_Debug CMakeFiles/Pomodoro_Timer.dir/Pomodoro_Timer_autogen/mocs_compilation.cpp.obj CMakeFiles/Pomodoro_Timer.dir/main.cpp.obj CMakeFiles/Pomodoro_Timer.dir/mainwindow.cpp.obj CMakeFiles/Pomodoro_Timer.dir/runningsessionboard.cpp.obj CMakeFiles/Pomodoro_Timer.dir/profile.cpp.obj CMakeFiles/Pomodoro_Timer.dir/profilemanager.cpp.obj | C$:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.9.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a || Pomodoro_Timer_autogen Pomodoro_Timer_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.9.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

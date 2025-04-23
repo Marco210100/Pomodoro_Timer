@@ -3,6 +3,7 @@
 #include <QTimer>
 #include <QDesktopServices>
 #include <QUrl>
+#include <QMessageBox>
 
 RunningSessionBoard::RunningSessionBoard(int hours, int minutes, int breakTime,
                                          QString link, QWidget *parent)
@@ -91,7 +92,8 @@ void RunningSessionBoard::startBreak()
     m_Timer->start(1000);
 }
 
-void RunningSessionBoard::openVideo(const QString& link)
+void RunningSessionBoard::openVideo(const QUrl& url)
 {
-    QDesktopServices::openUrl(link);
+    if (url.isValid() && !url.scheme().isEmpty())
+        QDesktopServices::openUrl(url);
 }

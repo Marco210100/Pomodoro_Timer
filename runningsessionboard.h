@@ -2,6 +2,7 @@
 #define RUNNINGSESSIONBOARD_H
 
 #include <QDialog>
+#include <QUrl>
 
 namespace Ui {
 class RunningSessionBoard;
@@ -27,7 +28,7 @@ private:
     int getSeconds();
     void startBreak();
     bool m_isSession;
-    void openVideo(const QString&);
+    void openVideo(const QUrl&);
 
 private slots:
     void timerTick();
