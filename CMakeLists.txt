@@ -25,6 +25,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         runningsessionboard.h runningsessionboard.cpp runningsessionboard.ui
         profile.h profile.cpp
+        profilemanager.h profilemanager.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Pomodoro_Timer APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
