@@ -1,4 +1,4 @@
-# CMake und Makefile aus Spracherkennung ausschließen
-CMakeLists.txt linguist-language=Text
-*.cmake linguist-language=Text
-Makefile linguist-language=Text
+# Diese Dateien ganz aus der Spracherkennung ausschließen
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+Makefile linguist-detectable=false
