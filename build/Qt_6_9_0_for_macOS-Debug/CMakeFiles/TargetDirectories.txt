@@ -1,0 +1,9 @@
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/Pomodoro_Timer.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/Pomodoro_Timer_autogen_timestamp_deps.dir
+/Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/CMakeFiles/Pomodoro_Timer_autogen.dir

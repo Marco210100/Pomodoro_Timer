@@ -4,6 +4,7 @@
 #define PROFILE_H
 #include <QString>
 #include <QUrl>
+#include <QJsonObject>
 
 class Profile
 {
@@ -22,12 +23,16 @@ public:
     void setMinutes(int m) { m_minutes = m; }
     void setBreakTime(int b) { m_breakTime = b; }
     void setUrl(QUrl u) { m_url = u; }
+    static Profile fromJson(const QJsonObject&);
+    QJsonObject toJson() const;
 
 private:
     int m_hours;
     int m_minutes;
     int m_breakTime;
     QUrl m_url;
+    
+    
 };
 
 #endif // PROFILE_H

@@ -2,12 +2,19 @@
 #define PROFILEMANAGER_H
 #include <QList>
 #include "profile.h"
+#include <QStandardPaths>
+#include <QDir>
 
 class ProfileManager
 {
 public:
-    static QList<Profile> loadFromFile(const QString& path);
-    static bool saveToFile(const QList<Profile>& profiles, const QString& path);
+    ProfileManager();
+    static QList<Profile> loadFromFile();
+    static bool saveToFile(const QList<Profile>& profiles);
+
+private:
+    static QString m_path;
+    QString getStandardPath();
 };
 
 #endif // PROFILEMANAGER_H

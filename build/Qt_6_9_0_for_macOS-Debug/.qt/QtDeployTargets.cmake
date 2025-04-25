@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Pomodoro_Timer_FILE /Users/marco/Documents/GitHub/Pomodoro_Timer/build/Qt_6_9_0_for_macOS-Debug/Pomodoro_Timer.app/Contents/MacOS/Pomodoro_Timer)
+set(__QT_DEPLOY_TARGET_Pomodoro_Timer_TYPE EXECUTABLE)
