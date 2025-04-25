@@ -1,0 +1,4 @@
+# Ignoriere Build- und Konfigurationsdateien für die Spracherkennung
+CMakeLists.txt linguist-language=Text
+*.cmake linguist-language=Text
+Makefile linguist-language=Text
