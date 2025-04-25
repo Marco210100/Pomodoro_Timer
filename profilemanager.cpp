@@ -25,6 +25,7 @@ QList<Profile> ProfileManager::loadFromFile()
 
     return list;
 }
+// test comment
 
 bool ProfileManager::saveToFile(const QList<Profile>& profiles)
 {
